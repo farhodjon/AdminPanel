@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    justify-content: space-between;
+}
+.App{
+  position: relative;
+}
+.Home{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Home img{
+  width: 20%;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.fo{
+  position:fixed;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  
+  background-color:rgba(255, 255, 255, 0.821) ;
+  z-index: 99;
+}
+.formalar{
+  position: absolute;
+  width: 40%;
+  top: 10%;
+  left: 30%;
+  margin: auto !important;
+  background-color:white;
+  box-shadow: 0 0 15px tan;
+  padding: 5px 0px;
+}
+
+input:nth-child(8):hover{
+background-color: blue;
+border-color: blue;
+color: white;
+
+}
+input:nth-child(7):hover{
+background-color: blue;
+border-color: blue;
+color: white;
+
+}
+input:nth-child(3){
+  height: 20vh;
+}
+
+input:nth-child(7) {
+margin-left:20%;
+margin-top:15px;
+width: 150px;
+}
+input:nth-child(8) {
+  width: 150px;
+  margin-left:5%;
+  margin-bottom: 35px;
+
+}
+span{
+  position: absolute;
+  right: 25px;
+  font-size: 25px;
+  cursor: pointer;
+}
